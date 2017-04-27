@@ -2,8 +2,6 @@ s3-file-upload
 ---------------------------
 Node.js script to upload a single file to S3
 
-
-
 Authentication
 ---------------------------
 Step 1.  Add .aws folder to C:\Users\:yourname:
@@ -13,3 +11,8 @@ Step 3.  credentials file should have three lines as follows:
 	[default]
 	aws_access_key_id=AKIAIOSFODNN7EXAMPLE
 	aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+To Run
+---------------------------
+Step 1.  Run CMD from folder containing app.js
+Step 2.  Enter following in CMD:	node app.js YOUR_S3_BUCKET FILE_TO_UPLOAD
