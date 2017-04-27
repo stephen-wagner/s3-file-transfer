@@ -18,7 +18,12 @@ const uploadParams = {
 }
 
 s3.upload(uploadParams, function (err, data) {
-  console.log(err, data)
+  if (err) {
+    console.log('\nERROR:\n' + err.message) // an error occurred
+  } else {
+    console.log('')
+    console.log(data)
+  }
 })
 
 // Steps to download files
