@@ -16,11 +16,11 @@ AWS.config.update({
 
 program
   .version('v0.0.1 Alpha')
-  .option('-b, --bucket', 'Enter S3 bucket location (e.g. bucket/folder)')
-  .option('-f, --file', 'Enter file name (dn) or path (up) (e.g. filename.ext)')
-  .option('-r, --region', '(optional) Enter S3 region (default of us-east-1)')
-  .option('-u, --upload', 'Flag to upload file')
-  .option('-d, --download', 'Flag to download file')
+  .option('-b, --bucket', 'enter S3 bucket location (e.g. bucket/folder)')
+  .option('-f, --file', 'enter file name (dn) or path (up) (e.g. filename.ext)')
+  .option('-r, --region', 'enter S3 region (optional - defaults to us-east-1)')
+  .option('-u, --upload', 'flag to upload file')
+  .option('-d, --download', 'flag to download file')
   // .option('-o, --output', 'Enter filename of downloaded file')
   .parse(process.argv)
 
