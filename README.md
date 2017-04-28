@@ -8,11 +8,9 @@ Authentication
 2.  Add credentials file to .aws folder
 3.  credentials file should have three lines as follows:
 
-	`[default]
-	
-	aws_access_key_id=AKIAIOSFODNN7EXAMPLE
-	
-	aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
+	`[default]`
+	`aws_access_key_id=AKIAIOSFODNN7EXAMPLE`
+	`aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
 
 To Run
 ---------------------------
