@@ -4,9 +4,9 @@ Node.js script to upload or download a single file to/from AWS S3
 
 Authentication
 ---------------------------
-Step 1.  Add .aws folder to C:\Users\:yourname:
-\nStep 2.  Add credentials file to .aws folder
-\nStep 3.  credentials file should have three lines as follows:
+1.  Add .aws folder to C:\Users\:yourname:
+2.  Add credentials file to .aws folder
+3.  credentials file should have three lines as follows:
 
 	[default]
 	aws_access_key_id=AKIAIOSFODNN7EXAMPLE
@@ -14,5 +14,5 @@ Step 1.  Add .aws folder to C:\Users\:yourname:
 
 To Run
 ---------------------------
-Step 1.  Run CMD from folder containing app.js
-\nStep 2.  Enter node s3-file-transfer.js --help for instructions
+1.  Run CMD from folder containing s3-file-transfer.js
+2.  Enter node s3-file-transfer.js --help for instructions
