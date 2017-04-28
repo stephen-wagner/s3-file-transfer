@@ -1,6 +1,6 @@
 s3-file-upload
 ---------------------------
-Node.js script to upload a single file to S3
+Node.js script to upload or download a single file to/from AWS S3
 
 Authentication
 ---------------------------
