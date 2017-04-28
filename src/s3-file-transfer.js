@@ -1,3 +1,6 @@
+// Stephen Wagner
+// (c) 2017
+
 const AWS = require('aws-sdk')
 const fs = require('fs')
 const path = require('path')
