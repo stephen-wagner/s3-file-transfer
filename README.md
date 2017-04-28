@@ -1,4 +1,4 @@
-s3-file-upload
+s3-file-transfer
 ---------------------------
 Node.js script to upload or download a single file to/from AWS S3
 
@@ -15,4 +15,4 @@ Step 3.  credentials file should have three lines as follows:
 To Run
 ---------------------------
 Step 1.  Run CMD from folder containing app.js
-Step 2.  Enter node app.js --help for instructions
+Step 2.  Enter node s3-file-transfer.js --help for instructions
