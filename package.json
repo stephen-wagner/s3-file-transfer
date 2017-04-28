@@ -1,24 +1,27 @@
 {
-	"name": "s3-file-upload",
-	"version": "0.1.0",
-	"description": "Upload a file to an S3 bucket",
-	"main": "s3-file-upload.js",
-	"author": "Stephen Wagner <stephen.wagner.a@gmail.com>",
-	"devDependencies": {
-		"aws-sdk": ">= 2.0.9",
-		"eslint": "^3.9.1",
-		"eslint-config-airbnb": "^13.0.0",
-		"eslint-plugin-import": "^2.2.0",
-		"eslint-plugin-jsx-a11y": "^2.2.3",
-		"eslint-plugin-react": "^6.6.0",
-		"eslint-config-standard": "^6.2.1",
-		"eslint-plugin-promise": "^3.4.0",
-		"eslint-plugin-standard": "^2.0.1",
-		"jshint": "^2.9.4",
-		"jshint-loader": "^0.8.3"
-	},
-	"dependencies": {
-		"aws-sdk": ">= 2.0.9",
-		"standard": "^8.6.0"
-	}
+  "name": "s3-file-upload",
+  "version": "0.1.0",
+  "description": "Upload a file to an S3 bucket",
+  "main": "s3-file-upload.js",
+  "author": "Stephen Wagner <stephen.wagner.a@gmail.com>",
+  "devDependencies": {
+    "aws-sdk": ">= 2.0.9",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "jshint": "^2.9.4",
+    "jshint-loader": "^0.8.3"
+  },
+  "dependencies": {
+    "aws-sdk": ">= 2.0.9",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "minimist": "^1.2.0",
+    "standard": "^8.6.0"
+  }
 }
