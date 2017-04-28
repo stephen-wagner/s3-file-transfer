@@ -15,4 +15,4 @@ Step 3.  credentials file should have three lines as follows:
 To Run
 ---------------------------
 Step 1.  Run CMD from folder containing app.js
-Step 2.  Enter following in CMD:	node app.js YOUR_S3_BUCKET FILE_TO_UPLOAD
+Step 2.  Enter node app.js --help for instructions
